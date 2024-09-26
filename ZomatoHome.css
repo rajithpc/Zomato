@@ -1,0 +1,459 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+/* Header */
+header{
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+}
+.header-image{
+    position:absolute;
+    width: 100%;
+    top: -20vh;
+    z-index: -1;
+}
+.nav{
+    display: flex;
+    margin: 1vh 10vw;
+    justify-content: space-between;
+    color: white;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav h4{
+    font-size: 12px;
+}
+.nav-bar{
+    display: flex;
+    list-style: none;
+}
+.nav-bar li{
+    font-size: 1.2em;
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-left: 30px;
+    padding: 0.8rem !important;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vh;
+}
+.logo{
+    width: 20vw;
+}
+.head h3{
+    font-size: 2.1em;
+    color: whitesmoke;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.search{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 55vw;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px 0;
+    padding-left: 10px;
+}
+.search input{
+    outline: none;
+    border: none;
+    width: 50%;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.search p{
+    color:gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+.search i{
+    border-left: 2px solid rgb(194, 187, 187);
+    color: gray;
+    padding-left: 10px;
+}
+.down-arrow{
+    margin-right: 10px;
+}
+
+/* Section 1*/
+
+
+.section-1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 13vh;
+    padding: 50px 200px 0 200px;
+}
+.box{
+    position: relative;
+    width: 50%;
+    height: 250px;
+    margin: 3px 5px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 1px 2px gray;
+    background-color: rgb(243, 240, 240);
+}
+.box img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    z-index: -1;
+    border: 1px solid rgb(205, 200, 200);
+}
+.white{
+    position: absolute;
+    bottom: 0px;
+    padding: 15px;
+    height: 25%;
+    background-color: white;
+    width: 100%;
+    z-index: 2;
+}
+.white span{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(56, 56, 56);
+    letter-spacing: 0.7px;
+}
+.white p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color:gray;
+    letter-spacing: 0.7px;
+}
+
+/* Section 2 */
+
+.section-2{
+    padding: 0 200px 0 200px;
+}
+.middle h2{
+    font-size: 2.7em;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+.middle div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.section-2 h6{
+    margin: 0;
+    font-size: 1em;
+    font-weight: lighter;
+    color: rgb(99, 98, 98);
+}
+.arrow,.section-2 span{
+    color: rgb(248, 117, 117);
+}
+
+/* Section 3 */
+
+.section-3{
+    display: flex;
+    margin-top: 30px;
+    padding: 0 200px 0 200px;
+    margin-bottom: 100px;
+}
+.section-3-box{
+    width: 270px;
+    height: 320px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+}
+.section-3-box i{
+    color: white;
+}
+.section-3-box div{
+    position: absolute;
+    background: linear-gradient(transparent,black);
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: flex-end;
+    bottom: 0;
+}
+.section-3-box div span:first-child{
+    display: inline-block;
+    color: white;
+    padding-left: 10px;
+    font-size: 1.1em;
+    padding-bottom: 10px;
+}
+.section-3-box img{
+    width: 270px;
+    height: 320px;
+    object-fit: cover;
+}
+.Great-Cafes-box{
+    margin-left: 15px;
+}
+
+/* Section 4 */
+
+.section-4{
+    padding: 0 200px 0 200px;
+}
+.section-4 h1{
+    font-size: 2.1em;
+    font-weight: 400;
+    color: rgb(54, 54, 54);
+}
+.section-4-container{
+    display: grid;
+    justify-content: center;
+    grid-column-gap: 45px;
+    grid-row-gap: 10px;
+    grid-template-columns: 340px 340px 340px;
+    grid-template-rows: auto;
+}
+.section-4-box{
+    padding: 1.2rem 1.5rem;
+    border-radius: 0.8rem;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232);
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    width: 320px;
+}
+.section-4-box-text-part{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 1rem);
+}
+.section-4-box-text-part h5{
+    margin-bottom: 5px;
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.section-4-box-text-part p{
+    font-weight: lighter;
+    color: gray;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.section-4-box-final-text-part{
+    margin-left: 115px;
+}
+.section-4-box i{
+    margin-left: 15px;
+}
+.section-4 h1 span{
+    font-weight: 500;
+}
+
+/* Secction 5 */
+
+.section-5{
+    display: flex;
+    margin: 90px 0;
+    padding: 0 200px 0 200px;
+    justify-content: center;
+    background-color: rgb(255, 248, 248);
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.contact{
+    width: 100%;
+    overflow: hidden;
+}
+.contact img{
+    width: 400px;
+    height: 450px;
+    padding-right: 40px;
+}
+.address{
+    width: 470px;
+    margin-top: -50px;
+    padding-left: 10px;
+}
+.address p{
+    padding-bottom: 10px;
+    font-size: 0.95rem;
+    color: rgb(92, 91, 91);
+}
+.address h2{
+    font-size: 2.7rem;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    color: rgb(34, 34, 34);
+}
+.radio{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 230px;
+    padding-bottom: 20px;
+}
+.radio label{
+    font-size: 1.1rem;
+    color: rgb(49, 49, 49);
+}
+.radio [type="radio"]{
+    accent-color: rgb(255,92,92);
+}
+.email{
+    position: relative;
+}
+.email input{
+    height: 46px;
+    border-radius: 5px;
+    width: 270px;
+    border: 1px solid gray;
+    font-size: 1.3rem;
+    padding-left: 15px;
+}
+.place{
+    position: absolute;
+    font-size: 1rem;
+    left: 15px;
+    top: 13px;
+    color: gray;
+    font-weight: lighter;
+}
+.email button{
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+    border: 1px solid rgb(255, 104, 104);
+    background-color: rgb(225, 104, 104);
+    font-size: 1.1rem;
+    margin-left: 6px;
+    color: white;
+}
+.download{
+    font-size: 0.7rem;
+    margin-top: 27px;
+    margin-bottom: 0;
+    color: gray;
+}
+.app img{
+    width: 137px;
+    height: 48px;
+}
+
+/* Section 6 */
+
+.section-6{
+    padding: 0 200px 0 200px;
+}
+.section-6 h2{
+    color: rgb(54, 54, 54);
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+.section-6-box
+{
+    padding: 1.2rem 1.5rem;
+    border-radius: 0.8rem;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+}
+.section-6-box p{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(46, 46, 46);
+}
+
+/* Footer */
+
+.first img{
+    width: 125px;
+    height: 28px;
+}
+.footer-section{
+    padding: 50px 200px 0 200px;
+    background-color: rgb(244, 244, 253);
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+.first-1{
+    display: flex;
+    align-items: center;
+}
+.first-1 span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid rgb(198, 192, 192);
+    border-radius: 5px;
+    margin-right: 20px;
+    font-weight: 400;
+    width: 100px;
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+.second div{
+    width: 200px;
+}
+.second h4{
+    font-weight: lighter;
+    color: rgb(22, 22, 22);
+    white-space: nowrap;
+}
+.second a{
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: gray;
+    font-size: 0.9rem;
+}
+.second img{
+    width: 137px;
+    height: 40px;
+    margin-top: 11px;
+    cursor: pointer;
+}
+.footer-box-4{
+    display: flex;
+    flex-direction: column;
+}
+.footer-box-4 i{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.disclaimer{
+    padding: 10px 0;
+    color: gray;
+    font-size: 0.9rem;
+}
+.flag{
+    width: 25px;
+    height: 20px;
+}
